@@ -29,6 +29,8 @@ Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 
 
 ## Solutions
 - Pinpoint
+  ![img.png](img/img.png)
+  - 서버 구조를 한눈에 볼 수 있음.? 설정을 해줘야 하는지는 모르겠지만 좋아보임
 - Whatap
 - Zabbix
 
