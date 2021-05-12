@@ -27,6 +27,11 @@ Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 
 ## Visualization
 - [Grafana](grafana/README.md)
 
+## Solutions
+- Pinpoint
+- Whatap
+- Zabbix
+
 
 ## Reference
 [collecD vs statsD](https://www.metricfire.com/blog/collectd-vs-statsd/#:~:text=Collectd%20can%20be%20used%20for,counts%2C%20sets%2C%20and%20intervals.)
