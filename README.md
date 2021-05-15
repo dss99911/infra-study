@@ -2,6 +2,8 @@
 
 ## Metric Reporter
 - [com.readytalk:metrics3-statsd](statsD/README.md)
+- Spring Boot Actuactor
+  - Spring study 참고
 
 ## Metric Collector(Optional)
 Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 함. 
