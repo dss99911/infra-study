@@ -12,9 +12,10 @@ Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 
     - infrastructure와 application에 모두가능하고, 수집할 때 특별한 로직을 구현할 필요 없다고함.
     - 플러그인 추가를 통해 로직 구현 없이 적용 가능.
     - 적용 대상 : CPU, load, processes, df, disk, network, memory, rrdtool, apache, Nginx, MySQL, PostgreSQL, bind, java, Memcached, etc.
-- [Telegraf](influxdb/README.md)
+- [Telegraf](influxdb/telegraf.md)
     - InfluxDB와 같이 사용함.
-    - statsD형식의 데이터를 받아서 처리
+    - statsD형식의 데이터를 받아서 처리하는 input plugin이 있음
+    - 기본적인 플랫폼에 대한 input plugin이 있어서, 노코드로 가능함
 ## Storage
 - [Influx DB](influxdb/README.md)
     - Telegraf, Grafana와 연동 가능
@@ -24,6 +25,7 @@ Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 
     - 통합 솔루션. 하지만, grafana와 연동하거나 할 수 있으므로, Storage로 일단 분류.
 - Prometheus
     - 통합 솔루션. Grafana와 연동 가능함
+    - InfluxDB와 달리, pull 방식이라고 함.(influxDB는 pull방식도 지원. scraper)
 ## Visualization
 - [Grafana](grafana/README.md)
 
@@ -37,3 +39,4 @@ Reporter에서 보낸 데이터를 받아서, Transformation/aggregation 등을 
 
 ## Reference
 [collecD vs statsD](https://www.metricfire.com/blog/collectd-vs-statsd/#:~:text=Collectd%20can%20be%20used%20for,counts%2C%20sets%2C%20and%20intervals.)
+[Send StatsD Metrics to Telegraf](https://www.influxdata.com/blog/getting-started-with-sending-statsd-metrics-to-telegraf-influxdb/)

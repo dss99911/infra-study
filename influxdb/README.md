@@ -28,6 +28,8 @@ docker run -d \
 ## Setup by CLI
 https://docs.influxdata.com/influxdb/v2.0/get-started/?t=Docker#optional-set-up-and-use-the-influx-cli
 
+## [Write Data](write-data.md)
+## [Query](query.md)
 ## Reference
 https://grafana.com/docs/grafana/latest/getting-started/getting-started-influxdb/
 https://www.influxdata.com/blog/getting-started-with-sending-statsd-metrics-to-telegraf-influxdb/
