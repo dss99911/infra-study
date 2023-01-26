@@ -1,0 +1,5 @@
+- name: My first play
+  hosts: virtualmachines
+  tasks:
+    - name: shell command
+      shell: python3 -m nltk.downloader wordnet omw-1.4

@@ -1,0 +1,49 @@
+---
+# A list
+list1:
+  - Apple
+  - Orange
+  - Strawberry
+  - Mango
+# list with different syntax
+list2: ['Apple', 'Orange', 'Strawberry', 'Mango']
+
+
+# dictionary(key: value)
+martin:
+  name: Martin D'vloper
+  job: Developer
+  skill: Elite
+
+# dictionary different syntax
+martin2: {name: Martin D'vloper, job: Developer, skill: Elite}
+
+# boolean
+create_key: yes
+needs_agent: no
+knows_oop: True
+likes_emacs: TRUE
+uses_cvs: false
+
+# string
+include_newlines: |
+  exactly as you see
+  will appear these three
+  lines of poetry
+
+fold_newlines: >
+  this is really a
+  single line of text
+  despite appearances
+
+fold_same_newlines: "a b\nc d\n  e\nf\n"
+
+working_escaping: "a \t TAB and a \n NEWLINE"
+not_working_escaping: 'a \t TAB and a \n NEWLINE'
+
+
+# variable
+foo: "{{ variable }}/additional/string/literal"
+
+
+...
